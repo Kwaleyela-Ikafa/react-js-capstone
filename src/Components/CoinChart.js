@@ -62,18 +62,14 @@ const CoinChart = () => {
     },
     scales: {
       x: {
-
         gridLines: {
           display: false,
         },
-
       },
       y: {
-
         gridLines: {
           display: false,
         },
-
       },
     },
   };

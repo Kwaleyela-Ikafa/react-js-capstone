@@ -16,11 +16,11 @@ const CoinDetails = () => {
   return (
     <>
       <NavDetails coin={coinDetail} />
-      <div className="flex justify-center">
+      <div className="bg-blue flex justify-center">
         <CoinChart />
       </div>
       <main className="flex flex-col items-center p-5 ">
-        <section className=" p-3 border rounded bg-white shadow-md flex w-full md:w-6/12 mb-5 justify-between">
+        <section className="bg-blue text-white  p-3 border rounded shadow-md flex w-full md:w-6/12 mb-5 justify-between">
           <div> Name  </div>
           <div>
             {' '}
@@ -28,7 +28,7 @@ const CoinDetails = () => {
             {' '}
           </div>
         </section>
-        <section className=" p-3 border rounded bg-white shadow-md flex w-full md:w-6/12 mb-5 justify-between">
+        <section className="bg-blue text-white  p-3 border rounded shadow-md flex w-full md:w-6/12 mb-5 justify-between">
           <div> Symbol  </div>
           <div>
             {' '}
@@ -36,7 +36,7 @@ const CoinDetails = () => {
             {' '}
           </div>
         </section>
-        <section className=" p-3 border rounded bg-white shadow-md flex w-full md:w-6/12 mb-5 justify-between">
+        <section className="bg-blue text-white  p-3 border rounded shadow-md flex w-full md:w-6/12 mb-5 justify-between">
           <div> Market Cap  </div>
           <div>
             {' '}
@@ -44,7 +44,7 @@ const CoinDetails = () => {
             {' '}
           </div>
         </section>
-        <section className=" p-3 border rounded bg-white shadow-md flex w-full md:w-6/12 mb-5 justify-between">
+        <section className="bg-blue text-white  p-3 border rounded shadow-md flex w-full md:w-6/12 mb-5 justify-between">
           <div> Change  </div>
           <div>
             {' '}

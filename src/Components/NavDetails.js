@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const NavDetails = ({ coin }) => (
   <>
-    <nav className="relative flex flex-wrap bg-white items-center border-b border-slate-200 justify-between px-2  mb-3 nav-layout">
+    <nav className="bg-blue text-white relative flex flex-wrap bg-white items-center border-b border-slate-200 justify-between px-2  mb-3 nav-layout">
       <section className="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div>
           <Link to="/">

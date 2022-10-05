@@ -13,7 +13,7 @@ const Coin = ({ coin }) => {
   }, []);
 
   return (
-    <div className="bg-white p-3 border rounded shadow-md first:col-span-2 md:first:col-span-1 grid align-between coin-card">
+    <div className="bg-blue text-white p-3 border rounded shadow-md first:col-span-2 md:first:col-span-1 grid align-between coin-card">
       <Link to={`/coin/${coin.uuid}`} key={coin.uuid} className="grid">
         {' '}
         <div className="grid justify-end"><FiArrowRightCircle /></div>
@@ -25,8 +25,8 @@ const Coin = ({ coin }) => {
           </div>
           <div>
             {coin.change > 0
-              ? <FiTrendingUp className="text-green-400" />
-              : <FiTrendingDown className="text-red-500" />}
+              ? <FiTrendingUp className="text-green" />
+              : <FiTrendingDown className="text-red" />}
             {coin.change}
             %
           </div>

@@ -3,7 +3,7 @@
 Coin Ranking is a Single Page App (SPA) that displays cryptocurrency data fetched from the coinranking API
 
 ## Live Demo
-Coming Soon
+[Live Site](https://lambent-lily-c9744c.netlify.app)
 
 ## Built With
 

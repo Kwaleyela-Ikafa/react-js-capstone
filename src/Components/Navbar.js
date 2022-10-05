@@ -3,7 +3,7 @@ import { FiSettings, FiMic } from 'react-icons/fi';
 
 const Navbar = () => (
   <>
-    <nav className="bg-blue text-white relative flex flex-wrap bg-white items-center border-b border-slate-200 justify-between px-2  mb-3 nav-layout">
+    <nav className="bg-blue text-white relative flex flex-wrap items-center border-b border-slate-200 justify-between px-2 nav-layout">
       <section className="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div>
           <a

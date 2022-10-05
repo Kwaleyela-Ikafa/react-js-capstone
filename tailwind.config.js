@@ -5,7 +5,7 @@ module.exports = {
     extend: {},
     colors: {
       // Configure your color palette here
-      blue: '#2563eb',
+      blue: '#1e40af',
       white: '#ffffff',
       green: '#a3e635',
       red: '#ef4444',

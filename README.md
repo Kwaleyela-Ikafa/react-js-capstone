@@ -1,6 +1,7 @@
 # Coin Ranking
 
 Coin Ranking is a Single Page App (SPA) that displays cryptocurrency data fetched from the coinranking API.
+Users can view cryptocurrency data and the current value of the coin on the stock market.
 
 ## Live Demo
 [Live Site](https://lambent-lily-c9744c.netlify.app)
